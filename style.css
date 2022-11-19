@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Raleway:wght@400;500&display=swap');
+
+
+:root {
+  --primary-color: #581c87;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+
+header {
+  padding: 0.4rem;
+  padding-top: 0.5rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  border-bottom-left-radius: 2rem;
+}
+
+header h1 {
+  font-family: 'Raleway', sans-serif;
+  text-align: initial;
+  margin-top: 0.5rem;
+}
+
+nav {
+  font-family: 'Heebo', sans-serif;
+  padding: 0.5rem;
+  text-align: right;
+
+}
+
+.nav .a {
+  
+  padding: 0 0.5rem;
+  min-width: fit-content;
+}
+
+
+a,
+li {
+  display: inline;
+  color: #fff;
+  margin: 0.5rem;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+}
+
+p{
+  font-weight: bold;
+padding-top: 1rem;
+}
+
+/*------------Input--------- */
+
+.input-label {
+
+  color: var(--primary-color);
+  width: 256px;
+
+}
+
+.input-label .p {
+  margin: 0.5rem;
+  margin-top: 2rem;
+  font-weight: bold;
+  font-size: large;
+
+}
+
+.input-text {
+  font-size: 12px;
+  padding: 0.5rem 0.7rem;
+  margin: 0rem auto;
+  border: 2px solid var(--primary-color);
+  border-radius: 2rem;
+  width: 100%;
+  min-width: 150px;
+  max-width: 250px;
+  display: block;
+}
+
+/* ------------BTN----------- */
+
+.btn-check {
+  background: var(--primary-color);
+  border: none;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  margin: 1rem auto;
+  display: block;
+  box-shadow: 2px 2.5px 10px 1.5px rgb(103, 33, 119);
+}
+
+.btn-check:hover {
+  background-color: #7f2ebc;
+  color: #fff;
+  box-shadow: 2px 3px 2px 2px rgb(255, 255, 255);
+}
+
+
+
+/* ---------output--------- */
+
+#output {
+  color: var(--primary-color);
+  font-style: bold;
+  font-size: larger;
+  text-align: center;
+  width: fit-content;
+  margin: 1rem auto;
+  padding: 1rem;
+  display: block;
+}
+
+
+
+/* ----------Is Triangle-------- */
+.calculate-triangle-main {
+  margin: auto;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+
+/* ---------Calculate Area-------- */
+.calculate-area-main {
+  margin-top: 2.8rem;
+  padding-bottom: 0rem;
+}
+
+
+
+
+/* ---------Calculate Hypotenuse-------- */
+.calculate-hypo-main {
+  margin-top: 2.8rem;
+  padding-bottom: 0rem;
+}
+
+
+.formula-container {
+  padding: 1.5rem;
+  border: 1.5px solid rgb(140, 32, 118);
+  border-radius: 2rem;
+  width: max-content;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  font-weight: bold;
+}
+
+
+/* ---------Quiz-------- */
+
+.quiz-main {
+  padding: 2.5rem;
+  margin-bottom: 6rem;
+}
+
+.quiz-form {
+  margin-top: 2.5rem;
+}
+
+.question-container {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+ /* -----------footer----------- */
+footer {
+  background-color: var(--primary-color);
+  position: relative;
+  text-align: center;
+  height: 80px;
+  margin-top: 100px;
+  margin-bottom: 0rem;
+  padding: 0.5rem 0.5rem;
+  border-top-left-radius: 1.1rem;
+  border-top-right-radius: 1.1rem;
+
+}
+
+.link {
+  color: white;
+
+}
+
+.list-unordered {
+  margin: 0.7.rem;
+}
