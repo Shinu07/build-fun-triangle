@@ -98,7 +98,9 @@ padding-top: 1rem;
   margin: 1rem auto;
   display: block;
   box-shadow: 2px 2.5px 10px 1.5px rgb(103, 33, 119);
+  margin-bottom: 5rem;
 }
+
 
 .btn-check:hover {
   background-color: #7f2ebc;
@@ -179,7 +181,6 @@ padding-top: 1rem;
  /* -----------footer----------- */
 footer {
   background-color: var(--primary-color);
-  position: relative;
   text-align: center;
   height: 80px;
   margin-top: 100px;
@@ -196,5 +197,7 @@ footer {
 }
 
 .list-unordered {
-  margin: 0.7.rem;
+  margin: 1rem;
+  text-align: center;
+
 }
