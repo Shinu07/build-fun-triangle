@@ -4,7 +4,7 @@ This is a part of neogcamp level Zero programme.
 
 This project is made  using technologies like HTML, CSS, JAVASCRIPT
 
-This website has some triangles related quizzes and calculators .
+This website has some triangles related quizzes and calculators to calculate Hypotenuse and Area of a triangle.
 
 # screenshot:
 ![Angles-of-Triangles (1)](https://user-images.githubusercontent.com/91987369/205301769-2821fdac-d027-49ba-932b-fb0d2540e1d6.png)
